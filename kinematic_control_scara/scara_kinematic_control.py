@@ -88,8 +88,8 @@ rpy = [np.pi,0,sim.getObjectOrientation(jointP1Handle,-1)[0]] # get rpy from las
 X_c = np.hstack([X_c,rpy])
 print(X_c)
 
-Ts = 0.04 # 0.03
-e = 0.05 # 0.09
+Ts = 0.04
+e = 0.05
 X_e_list = []
 
 pos_R1 = []
